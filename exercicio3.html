@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const preco1 = 1.70
+              preco2 = 2.30
+              preco3 = 2.60
+              preco4 = 2.40
+              preco5 = 2.50
+              preco6 = 1.00
+        var codigoitem=0, quantidade=0
+        codigoitem=Number(prompt("Digite o código do item: \n100 - Cachorro Quente \n101 - Bauru Simples \n102 - Bauru com Ovo \n103 - Hamburguer \n104 - Cheeseburguer \n105 - Refrigerante"))
+        quantidade= Number(prompt("Digite a quantidade que deseja"))
+        switch(codigoitem){
+            case 100: 
+            var precofinal= preco1*quantidade
+                document.write(`Valor total é R$ ${precofinal.toFixed(2)}`)
+                break
+            case 101: 
+            var precofinal= preco2*quantidade
+                document.write(`Valor total é R$ ${precofinal.toFixed(2)}`)
+                break
+                case 102: 
+            var precofinal= preco3*quantidade
+                document.write(`Valor total é R$ ${precofinal.toFixed(2)}`)
+                break
+                case 103: 
+            var precofinal= preco4*quantidade
+                document.write(`Valor total é R$ ${precofinal.toFixed(2)}`)
+                break
+                case 104: 
+            var precofinal= preco5*quantidade
+                document.write(`Valor total é R$ ${precofinal.toFixed(2)}`)
+                break
+                case 105: 
+            var precofinal= preco6*quantidade
+                document.write(`Valor total é R$ ${precofinal.toFixed(2)}`)
+                break
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
